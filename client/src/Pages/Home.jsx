@@ -1,8 +1,12 @@
+import { Box } from '@chakra-ui/react'
 import React from 'react'
+import Body from '../Components/Body/Body'
 
 function Home() {
   return (
-    <div>Home</div>
+    <Box>
+        <Body/>
+    </Box>
   )
 }
 
