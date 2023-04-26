@@ -77,8 +77,8 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-           Jakoda
-           <img src={logo} alt="" style={{ width: '150px', height: '70px' }} />
+          
+           <img src={logo} alt="" style={{ width: '150px', height: '70px',marginTop:"50px" }} />
           <i class='fab fa-firstdraft' />
         </Link>
         <div className='menu-icon' onClick={handleClick}>
